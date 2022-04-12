@@ -409,20 +409,35 @@ img {
   color: var(--title-text-color);
 }
 
+.hero-form-list {
+  margin-bottom: 20px;
+}
+
 .hero-form-item:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .hero-form-text {
+  /* margin-bottom: 4px; */
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+}
+
+.radio-text {
+  line-height: 1.71;
 }
 
 .button-close {
   position: absolute;
   top: 0;
   right: 0;
+  padding: 0px;
+  height: 30px;
+
+  border: none;
+  background-color: var(--primari-white-color);
 }
 
 .icon-close {
