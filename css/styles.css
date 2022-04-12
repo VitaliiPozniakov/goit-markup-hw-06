@@ -314,6 +314,20 @@ img {
   line-height: 1.19;
 }
 
+.button-index {
+  padding: 10px 32px;
+
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px var(--button-index-shadow);
+}
+
 /*----------------------------- Hero -----------------------------*/
 .hero {
   padding-top: 200px;
@@ -343,20 +357,6 @@ img {
   letter-spacing: 0.06em;
   font-weight: 900;
   text-transform: uppercase;
-}
-
-.button-hero {
-  padding: 10px 32px;
-
-  color: var(--primari-white-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px var(--button-index-shadow);
 }
 
 .backdrop {
@@ -685,21 +685,10 @@ img {
 }
 
 .button-footer {
-  position: relative;
   padding: 10px 32px;
 
   display: flex;
   align-items: center;
-
-  color: var(--primari-white-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px var(--button-index-shadow);
 }
 
 .icon-send {
