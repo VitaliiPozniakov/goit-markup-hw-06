@@ -432,22 +432,22 @@ img {
   letter-spacing: 0.01em;
 }
 
-.hero-form-radio {
+.hero-form-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.radio {
+.checkbox {
   margin-right: 8px;
 }
 
-.radio-text {
+.checkbox-text {
   line-height: 1.71;
 }
 
-.radio-link {
+.checkbox-link {
   color: var(--accent-color);
 }
 
