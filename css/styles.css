@@ -208,8 +208,7 @@ img {
 }
 
 .contact-item {
-  display: flex;
-  align-items: center;
+  fill: currentColor;
 }
 
 .contact-item:not(:last-child) {
@@ -251,7 +250,7 @@ img {
   position: relative;
 }
 
-.contacts-nav .link {
+.contact-item .link {
   color: var(--primary-text-color);
   line-height: 1.14;
   font-weight: 500;
@@ -261,23 +260,29 @@ img {
   transition: color 250ms var(--timing-function);
 }
 
-.contact-item {
-  fill: currentColor;
-}
-
-.contacts-nav .link:focus,
-.contacts-nav .link:hover {
+.contact-item .link:focus,
+.contact-item .link:hover {
   color: var(--accent-color);
 }
 
-.contacts-nav .item:not(:last-child) {
+.contact-item .item:not(:last-child) {
   margin-right: 50px;
+}
+
+.contact-item .link {
+  display: flex;
+  align-items: center;
 }
 
 .contact-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
 }
 
 /* Аналогичные варианты предыдущего селектора */
@@ -346,6 +351,8 @@ img {
       var(--linear-gradient-hero-color)
     ),
     url('../images/bcg-hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-clip: padding-box;
 }
 
@@ -461,6 +468,8 @@ img {
 .feature-icon-thumb {
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
+
   background-color: var(--secondary-background-color-light);
   border-radius: 4px;
 
@@ -639,6 +648,7 @@ img {
 
 .footer.container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-contact {
@@ -830,13 +840,6 @@ img {
   transition: border 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
-.cards-item:hover,
-.cards-item:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-  border: 1px solid rgba(238, 238, 238, 1);
-}
-
 .cards-item .text {
   color: var(--primary-text-color);
   font-size: 16px;
@@ -846,6 +849,16 @@ img {
 /* Убирает подчеркивание с ссылок */
 .cards-item .card-link {
   text-decoration: none;
+}
+
+.card-link {
+  display: block;
+}
+
+.card-link:focus,
+.card-link:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .card-description {
