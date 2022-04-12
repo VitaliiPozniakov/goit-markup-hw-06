@@ -408,6 +408,10 @@ img {
   border: none;
 }
 
+.icon-close {
+  fill: currentColor;
+}
+
 /*----------------------------- Features -----------------------------*/
 
 .title-without-margin {
