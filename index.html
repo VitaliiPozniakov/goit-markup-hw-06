@@ -64,14 +64,28 @@
             для вашего бизнеса
           </h1>
           <button data-modal-open type="button" class="button-index">Заказать услугу</button>
-          <div class="backdrop is-hidden" data-modal>
+          <!-- <div class="backdrop is-hidden" data-modal> -->
             <div class="modal">
-              <p class="modal-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quas consequuntur.
-                Maiores ullam at ex mollitia laboriosam doloribus quos, praesentium, fugit accusamus
-                dignissimos repudiandae vel quod esse. Tenetur, odio quasi!
-              </p>
-              <button data-modal-close type="button" class="button-close">
+                
+              <form class="hero-form">
+                <p class="hero-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <ul class="hero-form-list list">
+                  <li class="hero-form-item">
+                    <label class="hero-form-text" for="name">Имя</label> <input type="text" name="name" id="name" /></li>
+                  <li class="hero-form-item">
+                    <label class="hero-form-text" for="telephone">Телефон</label>
+                    <input type="tel" name="telephone" id="telephone" />
+                  </li>
+                  <li class="hero-form-item">
+                    <label class="hero-form-text" for="email">Почта</label> <input type="email" name="email" id="email" />
+                  </li>
+                  <li class="hero-form-item">
+                    <label class="hero-form-text" for="comment">Комментарий</label>
+                    <input type="text" name="comment" id="comment" />
+                  </li>
+                </ul>
+              </form>
+            <button data-modal-close type="button" class="button-close">
                 <svg class="icon-close" width="30" height="30">
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -500,10 +514,10 @@
           </ul>
         </div>
         <div class="footer-form">
-          <p class="footer-text">Подпишитесь на рассылку</p>
           <form>
+            <label for="email" class="footer-text">Подпишитесь на рассылку</label>
             <div class="form-content">
-              <input class="footer-input" type="text" />
+              <input class="footer-input" type="email" name="email" id="email" />
               <button type="submit" class="button-index button-footer">
                 Подписаться
                 <svg class="icon-send">
