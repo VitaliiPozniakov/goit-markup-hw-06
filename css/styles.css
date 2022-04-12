@@ -433,8 +433,14 @@ img {
 }
 
 .hero-form-radio {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+}
+
+.radio {
+  margin-right: 8px;
 }
 
 .radio-text {
@@ -443,6 +449,11 @@ img {
 
 .radio-link {
   color: var(--accent-color);
+}
+
+.button-send {
+  padding: 10px 56px;
+  cursor: pointer;
 }
 
 .button-close {
@@ -737,7 +748,7 @@ img {
 }
 
 .button-footer {
-  padding: 10px 32px;
+  padding: 10px 29px;
 
   display: flex;
   align-items: center;
