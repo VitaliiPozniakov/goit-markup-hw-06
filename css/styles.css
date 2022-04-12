@@ -432,8 +432,17 @@ img {
   letter-spacing: 0.01em;
 }
 
+.hero-form-radio {
+  display: block;
+  margin-bottom: 30px;
+}
+
 .radio-text {
   line-height: 1.71;
+}
+
+.radio-link {
+  color: var(--accent-color);
 }
 
 .button-close {

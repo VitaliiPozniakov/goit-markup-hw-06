@@ -64,7 +64,7 @@
             для вашего бизнеса
           </h1>
           <button data-modal-open type="button" class="button-index">Заказать услугу</button>
-          <div class="backdrop is-hidden" data-modal>
+          <!-- <div class="backdrop is-hidden" data-modal> -->
             <div class="modal">
               <form class="hero-form">
                 <p class="hero-form-title">Оставьте свои данные, мы вам перезвоним</p>
@@ -86,9 +86,14 @@
                     <input type="text" name="comment" id="comment" />
                   </li>
                 </ul>
-                <label>
-                  <input class="radio-text" type="radio" name="" id="" />
-                  Соглашаюсь с рассылкой и принимаю Условия договора
+                <label class="hero-form-radio">
+                  <input type="radio" name="" id="" />
+                  <p class="radio-text "> Соглашаюсь с рассылкой и принимаю 
+                  <a href="" 
+                  target="_blank"
+                  rel="nofollow noopener noreferrer noindex"
+                  class="radio-link">Условия договора</a>
+                  </p> 
                 </label>
                 <button type="submit" class="button-index">Отправить</button>
               </form>
