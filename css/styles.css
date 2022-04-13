@@ -468,6 +468,11 @@ img {
   cursor: pointer;
 }
 
+.form-input:focus-visible {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
 .form-input:focus + .hero-form-icon {
   fill: #2196f3;
 }
