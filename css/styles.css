@@ -451,6 +451,8 @@ img {
   position: absolute;
   top: 11px;
   left: 12px;
+
+  transition: fill 250ms var(--timing-function);
 }
 
 .form-input {
@@ -462,6 +464,8 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  transition: border 250ms var(--timing-function), outline 250ms var(--timing-function);
 }
 
 .form-input:hover {
