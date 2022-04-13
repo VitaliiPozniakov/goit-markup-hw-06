@@ -440,10 +440,19 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+  text-align: left;
 }
 
 .input-thumb {
   position: relative;
+}
+
+.form-input:hover {
+  cursor: pointer;
+}
+
+.form-input:focus + .hero-form-icon {
+  fill: #2196f3;
 }
 
 .hero-form-icon {
