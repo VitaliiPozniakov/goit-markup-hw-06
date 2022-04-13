@@ -447,14 +447,6 @@ img {
   position: relative;
 }
 
-.form-input:hover {
-  cursor: pointer;
-}
-
-.form-input:focus + .hero-form-icon {
-  fill: #2196f3;
-}
-
 .hero-form-icon {
   position: absolute;
   top: 11px;
@@ -462,12 +454,22 @@ img {
 }
 
 .form-input {
-  padding: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.form-input:hover {
+  cursor: pointer;
+}
+
+.form-input:focus + .hero-form-icon {
+  fill: #2196f3;
 }
 
 .comment {
