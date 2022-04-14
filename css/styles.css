@@ -492,6 +492,11 @@ img {
   border-radius: 4px;
 }
 
+.comment:focus-visible {
+  border: 1px solid #2196f3;
+  outline: none;
+}
+
 .comment::placeholder {
   font-size: 12px;
   line-height: 1.67;
@@ -786,6 +791,9 @@ img {
 }
 
 .footer-text {
+  display: block;
+  margin-bottom: 20px;
+
   color: var(--primari-white-color);
   font-weight: 700;
   line-height: 1.14;
@@ -811,25 +819,26 @@ img {
 
 .form-content {
   display: flex;
-  margin-top: 20px;
 }
 
 .footer-input {
   margin-right: 12px;
   width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
   background-color: var(--secondary-background-color-dark);
+  color: var(--footer-placeholder-color);
 }
 
-..footer-input::placeholder {
+.footer-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
-  /* display: flex;
-  align-items: center; */
   color: var(--footer-placeholder-color);
 }
 
