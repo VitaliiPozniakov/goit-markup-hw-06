@@ -511,11 +511,22 @@ img {
 }
 
 .checkbox {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none; */
+
+  /* position: absolute; */
 
   position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .checkbox-icon {
@@ -526,6 +537,9 @@ img {
   margin-right: 7px;
   border-radius: 2px;
   border: 2px solid var(--title-text-color);
+
+  transition: background-color, background-image, background-size, background-repeat,
+    background-origin, border-color 250ms var(--timing-function);
 }
 
 .checkbox:checked + .checkbox-icon {
