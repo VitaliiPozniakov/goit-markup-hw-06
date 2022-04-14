@@ -544,7 +544,7 @@ img {
 
 .checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color);
-  background-image: url(../images/check.svg);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 10'%3E%3Cpath d='m1.957 4.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: content-box;
