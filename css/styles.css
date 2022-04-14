@@ -575,10 +575,15 @@ img {
 
   border: none;
   background-color: var(--primari-white-color);
+  transition: color 250ms var(--timing-function);
 }
 
 .icon-close {
   fill: currentColor;
+}
+
+.button-close:hover {
+  color: var(--accent-color);
 }
 
 /*----------------------------- Features -----------------------------*/
